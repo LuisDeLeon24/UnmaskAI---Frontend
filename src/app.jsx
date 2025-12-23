@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Header from "./components/header";
+import Header from "./components/Header";
 import UploadBox from "./components/UploadBox";
 import ResultCard from "./components/ResultCard";
 import logo from "./assets/Unmask AI.png";
