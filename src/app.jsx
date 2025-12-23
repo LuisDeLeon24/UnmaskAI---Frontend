@@ -36,7 +36,7 @@ export default function App() {
   try {
     const base64Image = (await fileToBase64(image)).split(",")[1];
 
-    const res = await fetch("http://localhost:3000/api/unmask/image", {
+    const res = await fetch("https://unmask-ai-backend.onrender.com/api/unmask/image", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
