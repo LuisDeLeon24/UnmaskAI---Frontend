@@ -1,4 +1,5 @@
 import React from "react";
+import UnmaskAILogo from "../assets/UnmaskAI_logo_V2.2.png";
 
 export default function Navbar() {
   return (
@@ -7,7 +8,7 @@ export default function Navbar() {
         
         <div className="flex items-center gap-3 cursor-pointer">
           <img 
-            src="/UnmaskAI_logo_V2.2.png" 
+            src={UnmaskAILogo}
             alt="Unmask AI" 
             className="h-10 w-auto object-contain" 
           />
