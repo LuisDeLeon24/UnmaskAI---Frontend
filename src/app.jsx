@@ -5,11 +5,6 @@ import ResultCard from "./components/ResultCard";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-import ejemplo1 from "./assets/Example 1.png";
-import ejemplo2 from "./assets/Example 2.png";
-import ejemplo3 from "./assets/Example 3.png";
-import ejemplo4 from "./assets/Example 4.jpeg";
-import ejemplo5 from "./assets/Example 5.png";
 import React from "react";
 
 const CyberEyeLoader = () => (
@@ -71,11 +66,11 @@ export default function App() {
   };
 
   const sampleImages = [
-    { id: 1, name: "Real News", url: {ejemplo3} },
-    { id: 2, name: "Real News", url: {ejemplo1} },
-    { id: 3, name: "Fake News", url: {ejemplo4} },
-    { id: 5, name: "Fake News", url: {ejemplo5} },
-    { id: 4, name: "Meme News", url: {ejemplo2} },
+    { id: 1, name: "Real News", url: "/Example 3.png" },
+    { id: 2, name: "Real News", url: "/Example 1.png" },
+    { id: 3, name: "Fake News", url: "/Example 4.jpeg" },
+    { id: 5, name: "Fake News", url: "/Example 5.png" },
+    { id: 4, name: "Meme News", url: "/Example 2.png" },
   ];
 
   const onFileSelect = (file) => {
